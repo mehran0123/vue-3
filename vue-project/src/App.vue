@@ -1,5 +1,9 @@
-<script setup></script>
+<script setup>
+import RandomQouteGenerator from "./components/RandomQouteGenerator.vue";
+// import TodoList from "./components/TodoList.vue";
+</script>
 
-<template>Hello Vue</template>
-
-<style scoped></style>
+<template>
+  <!-- <TodoList /> -->
+  <RandomQouteGenerator />
+</template>
