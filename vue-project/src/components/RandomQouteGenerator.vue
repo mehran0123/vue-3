@@ -30,7 +30,9 @@ const getRandonQoute = () => {
   currentQoute.value = qoutes.value[randomIndex];
 };
 
-onMounted(getRandonQoute);
+onMounted(() => {
+  getRandonQoute
+});
 </script>
 
 <template>
